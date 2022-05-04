@@ -1,0 +1,34 @@
+{
+    "kind": "storage#policy",
+    "resourceId": "projects/_/buckets/my-violation-bucket-1",
+    "version": 1,
+    "etag": "CAE=",
+    "bindings": [
+        {
+            "role": "roles/storage.legacyBucketOwner",
+            "members": [
+                "projectEditor:lively-encoder-347305",
+                "projectOwner:lively-encoder-347305"
+            ]
+        },
+        {
+            "role": "roles/storage.legacyBucketReader",
+            "members": [
+                "projectViewer:lively-encoder-347305"
+            ]
+        },
+        {
+            "role": "roles/storage.legacyObjectOwner",
+            "members": [
+                "projectEditor:lively-encoder-347305",
+                "projectOwner:lively-encoder-347305"
+            ]
+        },
+        {
+            "role": "roles/storage.legacyObjectReader",
+            "members": [
+                "projectViewer:lively-encoder-347305"
+            ]
+        }
+    ]
+}

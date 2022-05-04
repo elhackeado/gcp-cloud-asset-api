@@ -1,0 +1,107 @@
+{
+    "name": "//compute.googleapis.com/projects/lively-encoder-347305/zones/us-west4-b/instances/instance-2",
+    "assetType": "compute.googleapis.com/Instance",
+    "resource": {
+        "version": "v1",
+        "discoveryDocumentUri": "https://www.googleapis.com/discovery/v1/apis/compute/v1/rest",
+        "discoveryName": "Instance",
+        "parent": "//cloudresourcemanager.googleapis.com/projects/507811761358",
+        "data": {
+            "lastStartTimestamp": "2022-04-15T22:31:23.287-07:00",
+            "allocationAffinity": {
+                "consumeAllocationType": "ANY_ALLOCATION"
+            },
+            "networkInterfaces": [
+                {
+                    "name": "nic0",
+                    "stackType": "IPV4_ONLY",
+                    "network": "https://www.googleapis.com/compute/v1/projects/lively-encoder-347305/global/networks/default",
+                    "networkIP": "10.182.0.3",
+                    "fingerprint": "QFjL2vosBf0=",
+                    "subnetwork": "https://www.googleapis.com/compute/v1/projects/lively-encoder-347305/regions/us-west4/subnetworks/default"
+                }
+            ],
+            "fingerprint": "kWycoqkerYI=",
+            "shieldedInstanceConfig": {
+                "enableVtpm": true,
+                "enableSecureBoot": false,
+                "enableIntegrityMonitoring": true
+            },
+            "status": "RUNNING",
+            "labelFingerprint": "42WmSpB8rSM=",
+            "machineType": "https://www.googleapis.com/compute/v1/projects/lively-encoder-347305/zones/us-west4-b/machineTypes/e2-medium",
+            "serviceAccounts": [
+                {
+                    "email": "507811761358-compute@developer.gserviceaccount.com",
+                    "scopes": [
+                        "https://www.googleapis.com/auth/devstorage.read_only",
+                        "https://www.googleapis.com/auth/logging.write",
+                        "https://www.googleapis.com/auth/monitoring.write",
+                        "https://www.googleapis.com/auth/servicecontrol",
+                        "https://www.googleapis.com/auth/service.management.readonly",
+                        "https://www.googleapis.com/auth/trace.append"
+                    ]
+                }
+            ],
+            "shieldedInstanceIntegrityPolicy": {
+                "updateAutoLearnPolicy": true
+            },
+            "cpuPlatform": "Intel Broadwell",
+            "canIpForward": false,
+            "id": "5518743965886048842",
+            "displayDevice": {
+                "enableDisplay": false
+            },
+            "zone": "https://www.googleapis.com/compute/v1/projects/lively-encoder-347305/zones/us-west4-b",
+            "confidentialInstanceConfig": {
+                "enableConfidentialCompute": false
+            },
+            "disks": [
+                {
+                    "deviceName": "instance-2",
+                    "boot": true,
+                    "diskSizeGb": "10",
+                    "index": 0.0,
+                    "licenses": [
+                        "https://www.googleapis.com/compute/v1/projects/debian-cloud/global/licenses/debian-10-buster"
+                    ],
+                    "autoDelete": true,
+                    "interface": "SCSI",
+                    "guestOsFeatures": [
+                        {
+                            "type": "UEFI_COMPATIBLE"
+                        },
+                        {
+                            "type": "VIRTIO_SCSI_MULTIQUEUE"
+                        }
+                    ],
+                    "source": "https://www.googleapis.com/compute/v1/projects/lively-encoder-347305/zones/us-west4-b/disks/instance-2",
+                    "type": "PERSISTENT",
+                    "mode": "READ_WRITE"
+                }
+            ],
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/lively-encoder-347305/zones/us-west4-b/instances/instance-2",
+            "tags": {
+                "fingerprint": "42WmSpB8rSM="
+            },
+            "deletionProtection": false,
+            "creationTimestamp": "2022-04-15T22:31:18.230-07:00",
+            "startRestricted": false,
+            "description": "",
+            "scheduling": {
+                "automaticRestart": true,
+                "preemptible": false,
+                "onHostMaintenance": "MIGRATE",
+                "provisioningModel": "STANDARD"
+            },
+            "name": "instance-2"
+        },
+        "location": "us-west4-b",
+        "resourceUrl": ""
+    },
+    "ancestors": [
+        "projects/507811761358"
+    ],
+    "updateTime": "2022-04-16T05:31:23.469946Z",
+    "orgPolicy": []
+}

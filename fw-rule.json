@@ -1,0 +1,45 @@
+{
+    "name": "//compute.googleapis.com/projects/lively-encoder-347305/global/firewalls/default-allow-http",
+    "assetType": "compute.googleapis.com/Firewall",
+    "resource": {
+        "version": "v1",
+        "discoveryDocumentUri": "https://www.googleapis.com/discovery/v1/apis/compute/v1/rest",
+        "discoveryName": "Firewall",
+        "parent": "//cloudresourcemanager.googleapis.com/projects/507811761358",
+        "data": {
+            "network": "https://www.googleapis.com/compute/v1/projects/lively-encoder-347305/global/networks/default",
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/lively-encoder-347305/global/firewalls/default-allow-http",
+            "priority": 1000.0,
+            "sourceRanges": [
+                "0.0.0.0/0"
+            ],
+            "creationTimestamp": "2022-04-14T22:56:26.843-07:00",
+            "name": "default-allow-http",
+            "disabled": false,
+            "id": "12473885277861861",
+            "description": "",
+            "allowed": [
+                {
+                    "ports": [
+                        "80"
+                    ],
+                    "IPProtocol": "tcp"
+                }
+            ],
+            "direction": "INGRESS",
+            "targetTags": [
+                "http-server"
+            ],
+            "logConfig": {
+                "enable": false
+            }
+        },
+        "location": "global",
+        "resourceUrl": ""
+    },
+    "ancestors": [
+        "projects/507811761358"
+    ],
+    "updateTime": "2022-04-15T05:56:27.125638Z",
+    "orgPolicy": []
+}

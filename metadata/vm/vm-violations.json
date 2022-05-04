@@ -1,0 +1,115 @@
+{
+    "name": "//compute.googleapis.com/projects/lively-encoder-347305/zones/us-east4-c/instances/instance-1",
+    "assetType": "compute.googleapis.com/Instance",
+    "resource": {
+        "version": "v1",
+        "discoveryDocumentUri": "https://www.googleapis.com/discovery/v1/apis/compute/v1/rest",
+        "discoveryName": "Instance",
+        "parent": "//cloudresourcemanager.googleapis.com/projects/507811761358",
+        "data": {
+            "displayDevice": {
+                "enableDisplay": false
+            },
+            "labelFingerprint": "42WmSpB8rSM=",
+            "tags": {
+                "fingerprint": "42WmSpB8rSM="
+            },
+            "selfLink": "https://www.googleapis.com/compute/v1/projects/lively-encoder-347305/zones/us-east4-c/instances/instance-1",
+            "cpuPlatform": "Intel Broadwell",
+            "machineType": "https://www.googleapis.com/compute/v1/projects/lively-encoder-347305/zones/us-east4-c/machineTypes/e2-micro",
+            "zone": "https://www.googleapis.com/compute/v1/projects/lively-encoder-347305/zones/us-east4-c",
+            "startRestricted": false,
+            "name": "instance-1",
+            "shieldedInstanceIntegrityPolicy": {
+                "updateAutoLearnPolicy": true
+            },
+            "deletionProtection": false,
+            "canIpForward": true,
+            "disks": [
+                {
+                    "guestOsFeatures": [
+                        {
+                            "type": "UEFI_COMPATIBLE"
+                        },
+                        {
+                            "type": "VIRTIO_SCSI_MULTIQUEUE"
+                        }
+                    ],
+                    "licenses": [
+                        "https://www.googleapis.com/compute/v1/projects/debian-cloud/global/licenses/debian-10-buster"
+                    ],
+                    "interface": "SCSI",
+                    "type": "PERSISTENT",
+                    "deviceName": "instance-1",
+                    "index": 0.0,
+                    "autoDelete": true,
+                    "mode": "READ_WRITE",
+                    "source": "https://www.googleapis.com/compute/v1/projects/lively-encoder-347305/zones/us-east4-c/disks/instance-1",
+                    "diskSizeGb": "10",
+                    "boot": true
+                }
+            ],
+            "id": "8175730173937183375",
+            "creationTimestamp": "2022-04-15T22:30:10.585-07:00",
+            "networkInterfaces": [
+                {
+                    "stackType": "IPV4_ONLY",
+                    "name": "nic0",
+                    "accessConfigs": [
+                        {
+                            "type": "ONE_TO_ONE_NAT",
+                            "natIP": "34.145.196.12",
+                            "networkTier": "PREMIUM",
+                            "name": "External NAT"
+                        }
+                    ],
+                    "networkIP": "10.150.0.2",
+                    "fingerprint": "wj+/nLXgDvY=",
+                    "network": "https://www.googleapis.com/compute/v1/projects/lively-encoder-347305/global/networks/default",
+                    "subnetwork": "https://www.googleapis.com/compute/v1/projects/lively-encoder-347305/regions/us-east4/subnetworks/default"
+                }
+            ],
+            "confidentialInstanceConfig": {
+                "enableConfidentialCompute": false
+            },
+            "allocationAffinity": {
+                "consumeAllocationType": "ANY_ALLOCATION"
+            },
+            "fingerprint": "pSdKtIuEhZ0=",
+            "description": "",
+            "lastStartTimestamp": "2022-04-15T22:30:17.326-07:00",
+            "shieldedInstanceConfig": {
+                "enableVtpm": true,
+                "enableIntegrityMonitoring": true,
+                "enableSecureBoot": false
+            },
+            "scheduling": {
+                "preemptible": false,
+                "automaticRestart": true,
+                "onHostMaintenance": "MIGRATE",
+                "provisioningModel": "STANDARD"
+            },
+            "status": "RUNNING",
+            "serviceAccounts": [
+                {
+                    "scopes": [
+                        "https://www.googleapis.com/auth/devstorage.read_only",
+                        "https://www.googleapis.com/auth/logging.write",
+                        "https://www.googleapis.com/auth/monitoring.write",
+                        "https://www.googleapis.com/auth/servicecontrol",
+                        "https://www.googleapis.com/auth/service.management.readonly",
+                        "https://www.googleapis.com/auth/trace.append"
+                    ],
+                    "email": "507811761358-compute@developer.gserviceaccount.com"
+                }
+            ]
+        },
+        "location": "us-east4-c",
+        "resourceUrl": ""
+    },
+    "ancestors": [
+        "projects/507811761358"
+    ],
+    "updateTime": "2022-04-16T05:30:17.590508Z",
+    "orgPolicy": []
+}

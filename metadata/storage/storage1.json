@@ -1,0 +1,27 @@
+{
+    "kind": "storage#policy",
+    "resourceId": "projects/_/buckets/my-violated-bucket-1",
+    "version": 1,
+    "etag": "CAI=",
+    "bindings": [
+        {
+            "role": "roles/cloudbuild.builds.builder",
+            "members": [
+                "allUsers"
+            ]
+        },
+        {
+            "role": "roles/storage.legacyBucketOwner",
+            "members": [
+                "projectEditor:lively-encoder-347305",
+                "projectOwner:lively-encoder-347305"
+            ]
+        },
+        {
+            "role": "roles/storage.legacyBucketReader",
+            "members": [
+                "projectViewer:lively-encoder-347305"
+            ]
+        }
+    ]
+}

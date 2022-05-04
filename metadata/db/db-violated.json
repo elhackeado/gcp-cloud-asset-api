@@ -1,0 +1,95 @@
+{
+    "name": "//cloudsql.googleapis.com/projects/lively-encoder-347305/instances/my-instance-1",
+    "assetType": "sqladmin.googleapis.com/Instance",
+    "resource": {
+        "version": "v1beta4",
+        "discoveryDocumentUri": "https://www.googleapis.com/discovery/v1/apis/sqladmin/v1beta4/rest",
+        "discoveryName": "DatabaseInstance",
+        "parent": "//cloudresourcemanager.googleapis.com/projects/507811761358",
+        "data": {
+            "name": "my-instance-1",
+            "databaseVersion": "MYSQL_5_7",
+            "kind": "sql#instance",
+            "databaseInstalledVersion": "MYSQL_5_7_36",
+            "serviceAccountEmailAddress": "p507811761358-tslx8o@gcp-sa-cloud-sql.iam.gserviceaccount.com",
+            "region": "us-central1",
+            "gceZone": "us-central1-f",
+            "backendType": "SECOND_GEN",
+            "createTime": "2022-04-16T06:40:53.279Z",
+            "serverCaCert": {
+                "createTime": "2022-04-16T06:41:01.767Z",
+                "certSerialNumber": "0",
+                "commonName": "C=US,O=Google\\, Inc,CN=Google Cloud SQL Server CA,dnQualifier=ef8bcc63-12b1-4a3b-9eba-c2b8c085c7f3",
+                "expirationTime": "2032-04-13T06:42:01.767Z",
+                "kind": "sql#sslCert",
+                "instance": "my-instance-1",
+                "sha1Fingerprint": "60aa12bbe8f63fe9b117c9441b4ac458217af16a"
+            },
+            "project": "lively-encoder-347305",
+            "selfLink": "https://sqladmin.googleapis.com/sql/v1beta4/projects/lively-encoder-347305/instances/my-instance-1",
+            "connectionName": "lively-encoder-347305:us-central1:my-instance-1",
+            "ipAddresses": [
+                {
+                    "ipAddress": "34.69.130.2",
+                    "type": "PRIMARY"
+                }
+            ],
+            "maintenanceVersion": "MYSQL_5_7_36.R20220220.01_08",
+            "settings": {
+                "pricingPlan": "PER_USE",
+                "databaseFlags": [
+                    {
+                        "name": "local_infile",
+                        "value": "on"
+                    },
+                    {
+                        "name": "skip_show_database",
+                        "value": "off"
+                    }
+                ],
+                "availabilityType": "ZONAL",
+                "tier": "db-f1-micro",
+                "activationPolicy": "ALWAYS",
+                "storageAutoResize": false,
+                "maintenanceWindow": {
+                    "hour": 0.0,
+                    "kind": "sql#maintenanceWindow",
+                    "day": 0.0
+                },
+                "replicationType": "SYNCHRONOUS",
+                "ipConfiguration": {
+                    "ipv4Enabled": true
+                },
+                "dataDiskType": "PD_HDD",
+                "backupConfiguration": {
+                    "kind": "sql#backupConfiguration",
+                    "transactionLogRetentionDays": 7.0,
+                    "startTime": "18:00",
+                    "enabled": false,
+                    "backupRetentionSettings": {
+                        "retentionUnit": "COUNT",
+                        "retainedBackups": 7.0
+                    },
+                    "binaryLogEnabled": false
+                },
+                "locationPreference": {
+                    "zone": "us-central1-f",
+                    "kind": "sql#locationPreference"
+                },
+                "dataDiskSizeGb": "10",
+                "storageAutoResizeLimit": "0",
+                "settingsVersion": "3",
+                "kind": "sql#settings"
+            },
+            "instanceType": "CLOUD_SQL_INSTANCE",
+            "state": "RUNNABLE"
+        },
+        "location": "us-central1",
+        "resourceUrl": ""
+    },
+    "ancestors": [
+        "projects/507811761358"
+    ],
+    "updateTime": "2022-04-16T07:01:10.641210Z",
+    "orgPolicy": []
+}

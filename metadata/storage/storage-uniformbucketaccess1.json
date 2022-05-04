@@ -1,0 +1,26 @@
+{
+    "kind": "storage#bucket",
+    "selfLink": "https://www.googleapis.com/storage/v1/b/my-violated-bucket-1",
+    "id": "my-violated-bucket-1",
+    "name": "my-violated-bucket-1",
+    "projectNumber": "507811761358",
+    "metageneration": "2",
+    "location": "US",
+    "storageClass": "STANDARD",
+    "etag": "CAI=",
+    "defaultEventBasedHold": false,
+    "timeCreated": "2022-04-16T06:10:02.669Z",
+    "updated": "2022-04-16T06:11:17.277Z",
+    "iamConfiguration": {
+        "bucketPolicyOnly": {
+            "enabled": false
+        },
+        "uniformBucketLevelAccess": {
+            "enabled": false
+        },
+        "publicAccessPrevention": "inherited"
+    },
+    "locationType": "multi-region",
+    "satisfiesPZS": false,
+    "rpo": "DEFAULT"
+}

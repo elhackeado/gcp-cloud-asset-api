@@ -1,0 +1,32 @@
+{
+    "name": "//bigquery.googleapis.com/projects/lively-encoder-347305/datasets/myseconddataset",
+    "assetType": "bigquery.googleapis.com/Dataset",
+    "resource": {
+        "version": "v2",
+        "discoveryDocumentUri": "https://www.googleapis.com/discovery/v1/apis/bigquery/v2/rest",
+        "discoveryName": "Dataset",
+        "parent": "//cloudresourcemanager.googleapis.com/projects/507811761358",
+        "data": {
+            "defaultTableExpirationMs": "0",
+            "creationTime": "1650095275727",
+            "location": "us-central1",
+            "kind": "bigquery#dataset",
+            "datasetReference": {
+                "datasetId": "myseconddataset",
+                "projectId": "lively-encoder-347305"
+            },
+            "lastModifiedTime": "1650095275727",
+            "id": "lively-encoder-347305:myseconddataset",
+            "defaultEncryptionConfiguration": {
+                "kmsKeyName": "projects/lively-encoder-347305/locations/us-central1/keyRings/key-ring/cryptoKeys/the-key"
+            }
+        },
+        "location": "us-central1",
+        "resourceUrl": ""
+    },
+    "ancestors": [
+        "projects/507811761358"
+    ],
+    "updateTime": "2022-04-16T07:47:55.982804Z",
+    "orgPolicy": []
+}

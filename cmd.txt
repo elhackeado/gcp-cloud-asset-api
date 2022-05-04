@@ -1,0 +1,3 @@
+gcloud iam service-accounts keys create cloud-asset-api-sa.json --iam-account=cloud-asset-api-sa@lively-encoder-347305.iam.gserviceaccount.com
+
+gcloud dns managed-zones describe ZONENAME --format="json(dnsName,dnssecConfig.state,dnssecConfig.defaultKeySpecs)"

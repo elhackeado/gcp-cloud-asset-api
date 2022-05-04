@@ -1,0 +1,29 @@
+{
+    "name": "//bigquery.googleapis.com/projects/lively-encoder-347305/datasets/myfirstdataset/tables/myfirsttable",
+    "assetType": "bigquery.googleapis.com/Table",
+    "resource": {
+        "version": "v2",
+        "discoveryDocumentUri": "https://www.googleapis.com/discovery/v1/apis/bigquery/v2/rest",
+        "discoveryName": "Table",
+        "parent": "//bigquery.googleapis.com/projects/lively-encoder-347305/datasets/myfirstdataset",
+        "data": {
+            "location": "us-central1",
+            "schema": {},
+            "tableReference": {
+                "datasetId": "myfirstdataset",
+                "projectId": "lively-encoder-347305",
+                "tableId": "myfirsttable"
+            },
+            "id": "lively-encoder-347305:myfirstdataset.myfirsttable",
+            "creationTime": "1650095230334",
+            "kind": "bigquery#table"
+        },
+        "location": "us-central1",
+        "resourceUrl": ""
+    },
+    "ancestors": [
+        "projects/507811761358"
+    ],
+    "updateTime": "2022-04-16T07:47:10.648619Z",
+    "orgPolicy": []
+}

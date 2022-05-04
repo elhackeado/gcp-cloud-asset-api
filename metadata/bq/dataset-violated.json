@@ -1,0 +1,29 @@
+{
+    "name": "//bigquery.googleapis.com/projects/lively-encoder-347305/datasets/myfirstdataset",
+    "assetType": "bigquery.googleapis.com/Dataset",
+    "resource": {
+        "version": "v2",
+        "discoveryDocumentUri": "https://www.googleapis.com/discovery/v1/apis/bigquery/v2/rest",
+        "discoveryName": "Dataset",
+        "parent": "//cloudresourcemanager.googleapis.com/projects/507811761358",
+        "data": {
+            "defaultTableExpirationMs": "0",
+            "creationTime": "1650095215520",
+            "lastModifiedTime": "1650095215520",
+            "kind": "bigquery#dataset",
+            "datasetReference": {
+                "datasetId": "myfirstdataset",
+                "projectId": "lively-encoder-347305"
+            },
+            "id": "lively-encoder-347305:myfirstdataset",
+            "location": "us-central1"
+        },
+        "location": "us-central1",
+        "resourceUrl": ""
+    },
+    "ancestors": [
+        "projects/507811761358"
+    ],
+    "updateTime": "2022-04-16T07:46:55.786332Z",
+    "orgPolicy": []
+}
