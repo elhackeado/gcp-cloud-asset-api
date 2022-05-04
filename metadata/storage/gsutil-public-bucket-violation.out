@@ -1,0 +1,44 @@
+{
+    "bindings": [
+      {
+        "members": [
+          "allUsers"
+        ],
+        "role": "roles/cloudbuild.builds.builder"
+      },
+      {
+        "members": [
+          "allAuthenticatedUsers",
+          "allUsers"
+        ],
+        "role": "roles/composer.worker"
+      },
+      {
+        "members": [
+          "projectEditor:lively-encoder-347305",
+          "projectOwner:lively-encoder-347305"
+        ],
+        "role": "roles/storage.legacyBucketOwner"
+      },
+      {
+        "members": [
+          "projectViewer:lively-encoder-347305"
+        ],
+        "role": "roles/storage.legacyBucketReader"
+      },
+      {
+        "members": [
+          "projectEditor:lively-encoder-347305",
+          "projectOwner:lively-encoder-347305"
+        ],
+        "role": "roles/storage.legacyObjectOwner"
+      },
+      {
+        "members": [
+          "projectViewer:lively-encoder-347305"
+        ],
+        "role": "roles/storage.legacyObjectReader"
+      }
+    ],
+    "etag": "CAM="
+  }
